@@ -9,56 +9,40 @@ redirect_from:
 
 {% include base_path %}
 
-Education
+Education and research
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Graduate researcher, iMediaLab, Graduate School of Science and Engineering, Hosei University, Tokyo, Japan
+  * Advisor: Prof. Jinjia Zhou
+  * Research: efficient diffusion sampling, consistency distillation, knowledge distillation
 
-Work experience
+Research interests
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Few-step diffusion sampling and consistency distillation
+* Knowledge distillation and model compression
+* Efficient image generation, inpainting and restoration
+* Efficient video coding
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Generative models: diffusion models, consistency models, few-step sampling
+* Model efficiency: knowledge distillation, contrastive objectives, sampling-schedule design
+* Image and video: inpainting, style transfer, learned video coding
+* Evaluation: FID, CLIP Score, Inception Score
 
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Talks
+
+Talks and presentations
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
-  
-Teaching
+
+Profiles
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* [Google Scholar](https://scholar.google.com/citations?user=4ljiSLsAAAAJ) — 39 citations, h-index 4, i10-index 1
+* [ORCID](https://orcid.org/0009-0007-9056-9522)
+* [GitHub](https://github.com/BTAEYANG)

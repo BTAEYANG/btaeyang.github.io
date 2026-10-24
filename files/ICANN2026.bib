@@ -1,0 +1,21 @@
+@InProceedings{10.1007/978-3-032-38404-1_33,
+author="Wang, Qi
+and Zhou, Jinjia",
+editor="Pasa, Luca
+and Lintas, Alessandra
+and Tetko, Igor V.
+and Micheli, Alessio
+and Navarin, Nicol{\`o}
+and Villa, Alessandro E. P.
+and Tortorella, Domenico
+and Polato, Mirko",
+title="Training-Free Adaptive Sampling Scheduler for Discrete-Time Consistency Distillation",
+booktitle="Artificial Neural Networks and Machine Learning -- ICANN 2026",
+year="2027",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="412--423",
+abstract="Consistency distillation has emerged as a leading paradigm for few-step acceleration of diffusion model sampling. While continuous-time formulations offer a theoretically cleaner framework by eliminating discretization errors, they remain limited by training instability and substantial architectural redesigns, leaving discrete-time consistency distillation as the dominant practical approach. However, existing discrete-time methods rely on deterministic or stochastic target-timestep strategies with hand-crafted schedules tailored to each distillation framework, and performance degrades substantially under mismatched schedulers. To address this, we propose a training-free adaptive sampling scheduler that generalizes across diverse discrete-time consistency distillation frameworks without retraining or scheduler redesign. The scheduler comprises three components: (i) adaptive timestep selection based on a principled Importance measure derived from the rate of change in signal-to-noise ratio; (ii) an Importance-guided alternating sampler that modulates forward denoising and backward noise injection to improve solution space exploration; and (iii) a smoothing and color-balancing procedure that mitigates exposure artifacts under high classifier-free guidance scales. Extensive experiments on Stable Diffusion XL (1024 {\$}{\$}{\backslash}times {\$}{\$}{\texttimes}1024) and Stable Diffusion v1.5 (512 {\$}{\$}{\backslash}times {\$}{\$}{\texttimes}512) across four baselines LCM, PCM, TCD, and TDD demonstrate consistent improvements in FID, CLIP Score, and Inception Score, particularly in extremely low-step regimes (2 to 4 steps). The scheduler is lightweight, training-free, and broadly compatible with existing discrete-time consistency distillations.",
+isbn="978-3-032-38404-1"
+}
+

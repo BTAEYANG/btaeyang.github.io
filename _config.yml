@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Qi Wang"
+title                    : "Qi Wang's Homepage"
 title_separator          : "-"
 name                     : &name "Qi Wang"
-description              : &description "Qi Wang - graduate researcher at Hosei University, Tokyo. Efficient diffusion sampling and consistency distillation."   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Qi Wang - graduate researcher at Hosei University, Tokyo. Efficient diffusion sampling, consistency distillation and knowledge distillation."   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://btaeyang.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -23,10 +23,10 @@ repository               : "btaeyang.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.svg"
   name             : "Qi Wang"
   pronouns         : # example: "she/her"  
-  bio              : "Graduate researcher, iMediaLab. Efficient diffusion sampling, consistency distillation and image generation."
+  bio              : "Graduate researcher, iMediaLab, Hosei University. Efficient diffusion sampling, consistency distillation and knowledge distillation."
   location         : "Tokyo, Japan"
   employer         : "Hosei University"
   uri              : # URL
@@ -35,15 +35,15 @@ author:
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : # URL - add once you have a Google Scholar profile
+  googlescholar    : "https://scholar.google.com/citations?user=4ljiSLsAAAAJ"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : # URL - add once you have an ORCID iD
+  orcid            : "https://orcid.org/0009-0007-9056-9522"
   semantic         : # URL
   ssrn             : # URL
   pubmed           : # URL
   researchgate     : # URL
-  scopus           : # URL
+  scopus           : "https://www.scopus.com/authid/detail.uri?authorId=58444723000"
   zotero           : # URL
 
 
@@ -90,6 +90,8 @@ publication_category:
     title: 'Journal Articles'    
   conferences:
     title: 'Conference Papers'
+  preprints:
+    title: 'Preprints'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
