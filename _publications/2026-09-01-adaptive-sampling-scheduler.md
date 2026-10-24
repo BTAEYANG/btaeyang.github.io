@@ -6,7 +6,7 @@ permalink: /publication/2026-09-01-adaptive-sampling-scheduler
 excerpt: 'Few-step consistency models fail not because the student is weak but because the sampling schedule is rigid. We score every timestep by an SNR-derived Importance measure, spend the same step budget where the trajectory actually moves, and add a matching sampler and colour-balancing pass. No retraining is required, and the method drops into LCM, PCM, TCD and TDD. At 2 sampling steps FID falls by up to 86%.'
 date: 2026-09-01
 venue: 'International Conference on Artificial Neural Networks (ICANN)'
-paperurl: 'https://doi.org/10.1007/978-3-032-38404-1_33'
+paperurl: 'https://link.springer.com/10.1007/978-3-032-38404-1_33'
 bibtexurl: 'https://btaeyang.github.io/files/ICANN2026.bib'
 citation: 'Qi Wang and Jinjia Zhou. (2026). &quot;Training-Free Adaptive Sampling Scheduler for Discrete-Time Consistency Distillation.&quot; <i>International Conference on Artificial Neural Networks (ICANN)</i>.'
 ---
@@ -31,5 +31,7 @@ is training-free, adds no parameters, and costs negligible runtime.
 figure, formatted for reading on a phone.
 
 [**Download the conference poster (A0, PDF)**](/files/ICANN2026_poster.pdf)
+
+[**Publisher page (Springer)**](https://link.springer.com/10.1007/978-3-032-38404-1_33)
 
 *Supported by JSPS KAKENHI JP25K15165 and the Kayamori Foundation of Informational Science Advancement.*

@@ -29,15 +29,15 @@ News
 * **[09/2026]** Our paper on adaptive sampling for consistency distillation was presented at
   **ICANN 2026** in Padua, Italy. [Poster (PDF)](/files/ICANN2026_poster.pdf)
 * **[07/2026]** **Top-KD: Top-scaled contrastive knowledge distillation** was published in
-  *Neurocomputing*. [DOI](https://doi.org/10.1016/j.neucom.2026.133636)
+  *Neurocomputing*. [Elsevier](https://linkinghub.elsevier.com/retrieve/pii/S0925231226010337)
 * **[02/2026]** Our work on efficient video coding was published in *Sensors*.
-  [DOI](https://doi.org/10.3390/s26051522)
+  [MDPI](https://www.mdpi.com/1424-8220/26/5/1522)
 
 Selected publication
 ======
 **Training-Free Adaptive Sampling Scheduler for Discrete-Time Consistency Distillation**
 Qi Wang and Jinjia Zhou. *International Conference on Artificial Neural Networks (ICANN)*, 2026.
-[DOI](https://doi.org/10.1007/978-3-032-38404-1_33) ·
+[Springer](https://link.springer.com/10.1007/978-3-032-38404-1_33) ·
 [Illustrated summary](/icann2026/) ·
 [Conference poster (A0, PDF)](/files/ICANN2026_poster.pdf)
 

@@ -12,4 +12,4 @@ Poster presentation of our ICANN 2026 paper on training-free adaptive sampling f
 
 - [Conference poster (A0, PDF)](/files/ICANN2026_poster.pdf)
 - [Illustrated summary](/icann2026/)
-- [Paper (DOI)](https://doi.org/10.1007/978-3-032-38404-1_33)
+- [Publisher page (Springer)](https://link.springer.com/10.1007/978-3-032-38404-1_33)
